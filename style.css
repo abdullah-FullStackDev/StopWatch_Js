@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(215, 215, 13);
+    text-transform:uppercase;
+}
+
+.container{
+    font-size: 60px;
+}
+@media screen and (min-width: 501px) {
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.border{
+  margin: auto;
+  width: 700px;
+  background-color: olive;
+  height: 240px;
+}
+}
+.b{
+  border: 1px solid black !important;
+}
+@media screen and (max-width: 500px) {
+    .container-2{
+     display: flex;
+     flex-direction: column;
+    }
+    .max-auto{
+      margin: auto;
+    }
+  }
+  .b1{
+    background-color: orange;
+    width: 200px;
+    padding-top: 10px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+  }
+  .b2{
+    background-color: orange;
+    width: 200px;
+    padding-top: 10px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+  }
+  .b3{
+    background-color: orange;
+    width: 200px;
+    padding-top: 10px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example {
+    0%   {top:0px;border-radius: 20px;}
+    25%  {top:50px; border-radius: 20px;}
+    50%  {top:100px; border-radius: 20px;}
+    75%  {top:150px; border-radius: 20px;}
+    100% {top:0px; border-radius: 20px;}
+  }
+
+  .b1:hover {
+    font-weight: 500;
+    cursor: pointer;
+   background-color: green;
+  }
+  .b2:hover {
+    font-weight: 500;
+    cursor: pointer;
+    background-color: crimson;
+
+  }
+  .b3:hover {
+    font-weight: 500;
+    cursor: pointer;
+    background-color: yellowgreen;
+  }
+  .tp{
+    margin-top: 20px;
+  }
