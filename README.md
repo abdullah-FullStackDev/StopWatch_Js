@@ -1,10 +1,10 @@
 # StopWatch_Js
 This project consists of building a StopWatch_Js, to understand the use of css frameworks, in this project i used HTML5/CSS3/JS for making the front-end of this web-site and i wanted to know how HTML5/CSS3/JS works.
-![Alt text](https://github.com/abdullah-FullStackDev/News-Week/blob/main/ss%20of%20news%20week.png)
+![Alt text](https://github.com/abdullah-FullStackDev/StopWatch_Js/blob/main/ss(stopwatch).png)
 
 ## Built With
 
-- HTML5 / CSS3
+- HTML5 / CSS3 / JS
 
 ## Live Demo
 
